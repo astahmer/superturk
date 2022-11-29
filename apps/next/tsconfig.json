@@ -14,6 +14,9 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true
+    // "paths": {
+    //   "@mono/ui-lib/*": ["../../packages/ui-lib/lib/*"]
+    // }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

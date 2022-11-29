@@ -1,22 +1,6 @@
 {
-  "name": "superturk",
-  "version": "0.1.0",
+  "name": "@mono/root",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "18.11.9",
-    "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.9",
-    "@xstate/react": "^3.0.1",
-    "next": "13.0.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.9.3",
-    "xstate": "^4.34.0"
-  }
+  "version": "0.0.1",
+  "author": "Alexandre Stahmer <alexandre.stahmer@gmail.com>"
 }

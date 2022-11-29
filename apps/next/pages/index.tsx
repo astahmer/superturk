@@ -3,6 +3,8 @@ import Image from "next/image";
 import { useAppSelector } from "../provider";
 import styles from "../styles/Home.module.css";
 
+import { Card } from "@mono/ui-lib";
+
 export default function Home() {
   const value = useAppSelector((state) => state.value);
   console.log(value);
@@ -19,6 +21,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <Card></Card>
 
         <p className={styles.description}>
           Get started by editing{" "}
